@@ -1,0 +1,124 @@
+.contenedorTexto{
+    width:25em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5pc rgba(0,0,0,0.5);
+    overflow: hidden;
+    margin: 2em;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgb(110, 104, 104);
+}
+
+.contenedorCajas{
+display: flex;
+justify-content: center;
+
+}
+
+.contenedorTexto:hover{
+    transform: translateY(-3px);
+    box-shadow: 10px 15px 30px rgba(0,0,0,0.6);
+}
+
+.contenedorImagen {
+    width: max-content;
+    max-height: 15em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    object-fit: scale-down; /* Ajusta la imagen dentro del contenedor */
+}
+
+
+.contenedorTitulo{
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin: 0.5em;
+}
+
+.parrafoAño{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.5em;
+    text-align: justify;
+
+}
+.parrafoGenero{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.5em;
+    text-align: justify;
+
+}
+.contenedorParrafo{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.5em;
+    text-align: justify;
+}
+
+.css-button-sharp--sky{
+    min-width:130px ;
+    height: 40px;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #4433ff;
+    background: #4433ff;
+  
+}
+
+.css-button-sharp--sky:hover{
+    background: aliceblue;
+    color: #4433ff;
+}
+
+.botonInfo{
+    min-width: 130px;
+    height: 40px ;
+    color: #fff;
+    padding:5px 10px ;
+    font-weight: bold;
+    cursor: pointer;
+    transition:all 0.3s ease;
+    position:  relative;
+    display:inline-block;
+    outline: none;
+    border-radius:5px ;
+    z-index:0 ;
+    background:#fff ;
+    overflow: hidden;
+    border: 2px solid #4433ff;
+    color: #4433ff;
+    margin: 0.3em 0.5em 1em 0.5em;
+}
+
+.botonInfo:hover{
+    color: #fff;
+}
+.botonInfo:hover::after{
+    width: 100px;
+}
+.botonInfo::after{
+    content:"" ;
+    position:absolute ;
+    z-index: -1;
+    transition:all 0.3s ease ;
+    right: 0;
+    top: 0;
+    width:0 ;
+    height: 100px; 
+    background: #4433ff;
+}

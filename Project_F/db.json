@@ -1,0 +1,7 @@
+{
+    "temas": [
+      { "id": 1, "titulo": "Primer Tema", "contenido": "Este es el contenido del primer tema." },
+      { "id": 2, "titulo": "Segundo Tema", "contenido": "Este es el contenido del segundo tema." }
+    ]
+  }
+  
